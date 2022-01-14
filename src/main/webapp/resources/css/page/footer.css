@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+/****************************************** start footer ***************************************************/
+footer a {
+	color: white;
+	font-size: 12px;
+}
+
+footer {
+	background-color: #89b8b3;
+	width: 100%;
+	color: white;
+	word-spacing: 5px;
+	display: flex;
+
+}
+
+footer .conts {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+}
+
+footer .firstFooter {
+	border-bottom: 2px dashed #e9c4be;
+	padding-bottom: 30px;
+}
+
+footer .list-menu > li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+footer .list-menu > li:hover {
+	font-weight: bold;
+}
+
+footer .secondFooter {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 30px;
+	border-bottom: 2px dashed #e9c4be;
+	padding-bottom: 30px;
+}
+
+footer .logo {
+	font-size: 30px;
+	text-shadow: 3px 3px #e9c4be;
+	text-align: center;
+	margin: 5px;
+	letter-spacing: 8px;
+	font-family: cursive;
+}
+
+footer .exp {
+	font-size: 12px;
+}
+
+footer .thirdFooter {
+	font-size: 10px;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+footer .logoWord {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer .info {
+	border-left: 1px solid #e9c4be;
+	padding-left: 20px;
+}
+
+footer .rights {
+	border-left: 1px solid #e9c4be;
+	padding-left: 20px;
+}
+
+footer .rights a:hover {
+	font-weight: bold;
+}
+
+/********************************************** end footer ************************************************/
+
+/*********************************************** start side nav *******************************************/
+footer .arrowTop {
+	position: fixed;
+	/* position: absolute; */
+	bottom: 0px;
+	right: 10px;
+	width: 40px;
+	bottom: 20px;
+	right: 10px;
+	font-size: 50px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: #e9c4be;
+	padding: 5px;
+	z-index: 10;
+}
+
+footer .arrowTop .side {
+	font-size: 30px;
+}
+
+footer .slide-top:hover {
+	animation: slide-top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-top {
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-5px);
+	}
+}
+@media screen and (max-width: 1200px) {
+	footer .secondFooter {
+		display:flex;
+		flex-direction: column;
+	}
+	footer .firstFooter .list-menu{
+		display: flex;
+		flex-direction: column;
+	}
+	footer .firstFooter .list-menu .line{
+		display: none;
+		
+	}
+	footer .firstFooter .list-menu li{
+		line-height: 20px;
+		
+	}
+	
+}
+
+/*********************************************** end side nav **********************************************/

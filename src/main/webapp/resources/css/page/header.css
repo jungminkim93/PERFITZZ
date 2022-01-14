@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/************************************* start header ***********************************************************/
+header {
+	/* position: fixed; */
+	background-color: #89b8b3;
+	/* transition-duration: 0.4s;
+	transition-timing-function: ease; */
+	/* z-index: 100; */
+	width: 100%;
+	color: white;
+	word-spacing: 5px;
+	min-height: 5vh;
+	
+}
+
+header .content {
+	/* padding-top: 20px;
+      padding-bottom: 20px; */
+	padding: 4vh 0 1vh 0;
+	
+}
+
+header .navbar {
+	display: flex;
+	justify-content: space-between;
+	font-size: 8px;
+	font-style:italic;
+}
+
+header .navbar_icons {
+	display: none;
+}
+
+header .nav_menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header .navbar_menu {
+	display: flex;
+	letter-spacing: 5px;
+	justify-content: space-between;
+}
+
+header .navbar_menu li {
+	margin-left: 20px;
+	
+}
+header .navbar_menu li a .nav{
+	font-size: 10px;
+}
+/* header .navbar_menu li:nth-child(2) > a {
+	color: #e9c4be;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+} */
+header .navbar_menu li a:hover {
+	color: #e9c4be;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	transition: 0.5s;
+}
+
+header .navbar_menu li a:focus {
+	color: #e9c4be;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* header .navbar_menu .box {
+	width: 8px;
+	height: 0px;
+	position: absoluzte;
+	top: 0;
+	background-color: #e9c4be;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+header .navbar_menu li:hover .box {
+	animation: box 0.5s forwards 0.2s;
+}
+
+@keyframes box {
+	from { height:0px;}
+	to {height: 30px;}
+
+} */
+header .logo {
+	font-size: 50px;
+	text-shadow: 3px 3px #e9c4be;
+	text-align: center;
+	margin: 5px;
+	letter-spacing: 8px;
+	font-family: cursive;
+}
+
+/* header:after {
+	display: block;
+	width: 100%;
+	content: "";
+} */
+
+/* .down {
+	background-color: rgba(137, 184, 179, 0.9);
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+} */
+
+
+/***************************************** end header ******************************************************/

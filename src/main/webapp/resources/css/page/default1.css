@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+   /* font: inherit; */
+   /* font-size: 100%; */
+   border: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+   background: #eee;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+
+}
+
+img {
+   max-width: 100%;
+}
+ol, ul {
+   list-style: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+hr {
+   display: block;
+   margin: 16px 0;
+   padding: 0;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #ccc;
+}
+input, select {
+   vertical-align: middle;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+a:hover{
+   cursor: pointer;
+}
+
+.container {
+   margin: 0 auto;
+   width: 1200px;
+   /* background-color: red; */
+
+}
+
+.content {
+   padding: 50px 20px;
+}
+
+
+.slide-top:hover {
+   animation: slide-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-top {
+   0% {
+       -webkit-transform: translateY(0);
+       transform: translateY(0);
+   }
+
+   100% {
+       -webkit-transform: translateY(-5px);
+       transform: translateY(-5px);
+   }
+}
